@@ -4,7 +4,7 @@ library(readxl)
 library(plyr)
 
 # Select Population
-Ethnicity <- "AFR"
+Ethnicity <- "EUR"
 
 getSEER_data <- function(Ethnicity="EUR") {
   ethnicity.select <- switch(Ethnicity,
